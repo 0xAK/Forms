@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Messages</h1>
+      <% data.forEach((entry)=> {%>
+      <section>
+        <p><em> Name:</em> <%= entry.name %></p>
+        <p><em>Email: </em><%= entry.email %></p>
+        <p><em>Message: </em><%= entry.message %></p>
+      </section>
+      <% }) %>
+    </div>
+  </body>
+</html>
